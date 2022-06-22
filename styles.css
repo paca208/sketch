@@ -1,0 +1,9 @@
+#grid-container{
+    display: grid;
+    width: 300px
+}
+.cell{
+}
+.mouseblack{
+    background-color: black;
+}
