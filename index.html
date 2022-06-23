@@ -8,8 +8,29 @@
     <title>Sketch</title>
 </head>
 <body>
-    <button class="buttonGSize">Size</button>
-    <div id="grid-container"></div>
+    <header class="header">Sketchbook</header>
+    <main class="menu">
+        <div class="grid-container">
+    <div id="grid"></div></div>
+    <div class="options">
+        <div class="color">
+            <span class="optionsText">🎨 Color</span>
+            <input type="color" id="colorPicker">
+        </div>
+        <div class="brushSizes">
+            <span class="optionsText">🖌️ Brush size</span> 
+            <button class="small">Small</button>
+            <button class="medium">Medium</button>
+            <button class="large">Large</button> 
+        </div>
+        <div class="canvasSizes">
+            <span class="optionsText">🖼 Canvas size</span>
+            <button class="smallCanvas">Small</button>
+            <button class="mediumCanvas">Medium</button>
+            <button class="largeCanvas">Large</button>
+        </div>
+    </div>
+    </main>
     <script src="./app.js"></script>
 </body>
 </html>
